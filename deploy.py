@@ -47,7 +47,7 @@ def create_template():
     qs.create_template(
         AwsAccountId=ACCOUNT_ID,
         TemplateId=TEMPLATE_ID,
-        Name="Ritika Template 2",
+        Name="Ritika Template 3",
         SourceEntity={
             "SourceAnalysis": {
                 "Arn": f"arn:aws:quicksight:{REGION}:{ACCOUNT_ID}:analysis/{SOURCE_ANALYSIS_ID}",
