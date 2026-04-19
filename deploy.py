@@ -145,7 +145,7 @@ def create_dashboard():
     qs.create_dashboard(
         AwsAccountId=ACCOUNT_ID,
         DashboardId=DASHBOARD_ID,
-        Name="Ritika Dashboard",
+        Name="Ritika Dashboard2",
         SourceEntity={
             "SourceTemplate": {
                 "Arn": f"arn:aws:quicksight:{REGION}:{ACCOUNT_ID}:template/{TEMPLATE_ID}",
