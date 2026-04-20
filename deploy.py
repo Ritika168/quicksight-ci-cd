@@ -99,7 +99,7 @@ def create_analysis():
     qs.create_analysis(
         AwsAccountId=ACCOUNT_ID,
         AnalysisId=NEW_ANALYSIS_ID,
-        Name="Ritika Analysis",
+        Name="Ritika Analysis using jenkins",
         SourceEntity={
             "SourceTemplate": {
                 "Arn": f"arn:aws:quicksight:{REGION}:{ACCOUNT_ID}:template/{TEMPLATE_ID}",
