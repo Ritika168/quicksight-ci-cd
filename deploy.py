@@ -191,6 +191,7 @@ def grant_dashboard_permissions():
                 "Actions": [
                     "quicksight:DescribeDashboard",
                     "quicksight:QueryDashboard",
+                    "quicksight:DeleteDashboard",   # ✅ ADD THIS
                     "quicksight:ListDashboardVersions"
                 ]
             }
